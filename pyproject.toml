@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "package-name"
+version = "0.1.0"
+description = ""
+authors = ["Timur <Stanmr7n@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "8.2.2"
+selene = "2.0.0rc9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dev-dependencies]
+pylint = "^3.2.6"
