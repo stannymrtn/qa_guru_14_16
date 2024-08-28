@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "package-name"
 version = "0.1.0"
-description = ""
+description = "added first test description"
 authors = ["Timur <Stanmr7n@gmail.com>"]
 readme = "README.md"
 
